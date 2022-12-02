@@ -1,0 +1,33 @@
+
+.list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-height: 40px;
+  padding: 2rem;
+  font-family: 'Lato', serif;
+  display: flex;
+  justify-content: right;
+}
+  
+
+  h1{
+    font-size: 3rem;
+    padding-left: 40%;
+  }
+
+  .link {
+    padding-top: 1%;
+    padding-left: 40%;
+    list-style: none;
+    width: 50%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+    
+  }
+
+  .link :hover{
+    color: grey;
+  }
